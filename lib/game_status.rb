@@ -25,10 +25,8 @@ def won?(board)
 end
 
 def full?(board)
-  board.any? do |board_position|
-    if board_position == " "
-      return FALSE
-    end
+  !board.any? do |board_position|
+   board_position == " "
   end
 end
 
