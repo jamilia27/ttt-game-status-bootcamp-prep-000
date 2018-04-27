@@ -14,9 +14,9 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def won(board)
-  WIN_COMBINATIONS.each do |win_index|
-    if board[index].include?(win_index)
+def won?(board)
+  WIN_COMBINATIONS.any? do |win_index|
+    if board[index].any?(win_index)
       return TRUE
     else
       return FALSE
