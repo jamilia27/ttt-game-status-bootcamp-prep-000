@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 
 def winning_combo(board)
   WIN_COMBINATIONS.select do |winning_combo|
-    (board[winning_combo[0]] == "X" && board[winning_combo[1]] == "X" && board[winning_combo[2]] == "X") || ()
+    (board[winning_combo[0]] == "X" && board[winning_combo[1]] == "X" && board[winning_combo[2]] == "X") || 
   end
 end
 
