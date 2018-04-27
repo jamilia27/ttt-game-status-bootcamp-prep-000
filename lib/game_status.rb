@@ -23,3 +23,7 @@ end
 def won?(board)
   winning_combos(board).first
 end
+
+def full?(board)
+end
+
