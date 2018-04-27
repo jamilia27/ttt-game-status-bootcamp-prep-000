@@ -25,17 +25,14 @@ def won?(board)
 end
 
 def full?(board)
-  board.any? do |board_position|
-    if board_position == "X" || board_position == "O"
-      return TRUE
-      elsif
-      board_position = " "
-      return FALSE
-    end
-  end
 end
 
-def draw?
+def draw?(board)
 end
 
+def over?(board)
+end
+
+def winner?(board)
+end
 def winner?
