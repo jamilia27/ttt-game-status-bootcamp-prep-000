@@ -28,6 +28,8 @@ def full?(board)
   board.any? do |board_position|
     if board_position == " "
       return FALSE
+      elsif board_position == "X" || board_position == "O"
+      return TRUE
     end
   end
 end
