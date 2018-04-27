@@ -30,6 +30,7 @@ def full?(board)
       return FALSE
       elsif board_position == "X" || board_position == "O"
       return TRUE
+    else
     end
   end
 end
