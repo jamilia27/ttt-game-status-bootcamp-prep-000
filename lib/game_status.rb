@@ -39,4 +39,10 @@ def over?(board)
 end
 
 def winner?(board)
+  if won?(board)
+    return "X"
+    elsif won?(board)
+    return "O"
+  else
+end
 end
