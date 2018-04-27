@@ -35,4 +35,3 @@ end
 
 def winner?(board)
 end
-def winner?
