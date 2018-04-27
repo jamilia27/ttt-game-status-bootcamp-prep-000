@@ -40,11 +40,12 @@ end
 
 def winner(board)
   winning_combination = won?(board)
-  if winning_combination = nil
+  if winning_combination == nil
     return nil
-  else
-    board[winning_combination[0]] == "X"
+    elsif board[winning_combination[0]] == "X"
     return "X"
+  else
+    "O"
   end
 end
     
