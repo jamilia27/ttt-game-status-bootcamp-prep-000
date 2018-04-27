@@ -14,8 +14,11 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def won?(board)
-  WIN_COMBINATIONS.any? do |win_combo|
-    board[win_combo[0]] == "X" && board[win_combo[1]] =="X" && board[win_combo[2]] == "X" || board[win_combo[0]] == "O" && board[win_combo[1]] =="O" && board[win_combo[2]] == "O"
+def winning_combo(board)
+  WIN_COMBINATIONS.select do |n
   end
+end
+
+def won?(board)
+  
 end
