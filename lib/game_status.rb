@@ -15,9 +15,8 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.any? do |win_index|
-    if board[index].any?(win_index)
-      return TRUE
+  WIN_COMBINATIONS.any? do |win_combo|
+    board[win_combo[0]] == "X" && board[win_combo[1]] =="X" && board[win_combo[2]] == "X" || board[win_combo[0]] == "O" && board[win_combo[1]] =="O" && board[win_combo[2]] == "O"
     else
       return FALSE
     end
