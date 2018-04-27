@@ -42,6 +42,7 @@ def winner(board)
   winning_combination = won?(board)
   if winning_combination = nil
     return nil
-    elsif winning_combination 
+    elsif winning_combination
+    (board[winning_combo[0]] == "X" && board[winning_combo[1]] == "X" && board[winning_combo[2]] == "X")
 end
 end
