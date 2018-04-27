@@ -43,8 +43,10 @@ def winner(board)
   if winning_combination = nil
     return nil
   else
-    (board[winning_combo[0]] == "X" && board[winning_combo[1]] == "X" && board[winning_combo[2]] == "X")
-    return == "X"
+    board[winning_combination[0]] == "X"
+    return "X"
   end
 end
 end
+    
+    
