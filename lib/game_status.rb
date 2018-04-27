@@ -29,6 +29,7 @@ def full?(board)
     if board_position == " "
       return FALSE
     end
+  end
 end
 
 def draw?(board)
