@@ -26,7 +26,12 @@ end
 
 def full?(board)
   board.any? do |board_position|
-    board_position == " "
+    if board_position == "X" || board_position == "O"
+      return TRUE
+      elsif
+      board_position = " "
+      return FALSE
+    end
   end
 end
 
